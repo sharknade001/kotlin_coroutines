@@ -1,5 +1,15 @@
 plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
 }
+
+//buildScript {
+//    repositories {
+//        maven { url 'https://maven.aliyun.com/repository/public/' }
+//        maven { url 'https://maven.aliyun.com/repository/google/' }
+//        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+//        gradlePluginPortal()
+//    }
+//}
+
 rootProject.name = 'kotlin_jvm'
 
